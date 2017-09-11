@@ -21,7 +21,7 @@ The perfectly-proportioned renaissance page in CSS.
 
 ## Demo
 
-~~~ coming soon ~~~
+[Check this out](http://honza.ca/renaissance.css/)
 
 ## Usage
 
