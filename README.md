@@ -19,6 +19,14 @@
 
 The perfectly-proportioned renaissance page in CSS.
 
+## Demo
+
+~~~ coming soon ~~~
+
+## Usage
+
+~~~ coming soon ~~~
+
 ## License
 
 MIT, short and sweet
