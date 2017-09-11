@@ -4,10 +4,10 @@ body {
   margin-right: 22.2222222222vw;
   margin-top: 16.6666666667vw;
   margin-bottom: 33.3333333333vw;
-  font-family: "Georgia, Linux Libertine O, serif"; }
+  font-family: Georgia, "Linux Libertine O", serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans, Fira Sans, Helvetica, sans";
+  font-family: "PT Sans", "Fira Sans", Helvetica, sans;
   text-align: center; }
 
 h1 {
