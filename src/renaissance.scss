@@ -1,0 +1,89 @@
+// MIT License
+
+// Copyright (c) 2017 Honza Pokorny <me@honza.ca>
+
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+
+$body-font:    'Linux Libertine O';
+$heading-font: 'PT Sans';
+$ninth: 100 / 9;
+
+// margin proportions
+
+// 1/9 ---- 2/9
+
+// book binding is on the left
+//   3
+// 2   4
+//   6
+
+$proportion-unit: $ninth / 2;
+
+$margin-inner:  $proportion-unit * 2vw;
+$margin-outer:  $proportion-unit * 4vw;
+$margin-top:    $proportion-unit * 3vw;
+$margin-bottom: $proportion-unit * 6vw;
+
+body {
+  margin-left:   $margin-inner;
+  margin-right:  $margin-outer;
+  margin-top:    $margin-top;
+  margin-bottom: $margin-bottom;
+
+  font-family: $body-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+p {
+  text-align: justify;
+  font-size: 2vw;
+  line-height: 120%;
+  padding-bottom: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  text-indent: 5vw;
+}
+
+blockquote {
+  @extend p;
+  margin-left: 10vw;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+  text-indent: 0;
+}
+
+li {
+  font-size: 2vw;
+}
