@@ -22,7 +22,8 @@ The perfectly-proportioned renaissance page in CSS, using the [Van de Graaf cano
 ![](https://upload.wikimedia.org/wikipedia/commons/2/2d/Van_de_Graaf_canon_in_book_design.svg)
 
 This includes styles for the page itself, the titles, the paragraphs and
-blockquotes, and lists.
+blockquotes, and lists.  The body font is dynamically set so that a line is
+about 2-3 alphabets long.
 
 ## Demo
 
